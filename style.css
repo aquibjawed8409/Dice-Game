@@ -1,0 +1,45 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+body{
+    font-family: 'Acme', sans-serif;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+}
+.container{
+    text-align: center;
+}
+h1{
+    margin: 60px;
+    text-align: center;
+    font-size: 50px;
+    color: yellow;
+    text-shadow: 2px 2px white;
+}
+#dice{
+    display: inline-block;
+    text-align: center;
+    margin-right: 40px;
+}
+p{
+    margin-bottom: 20px;
+    font-size: 20px;
+    text-shadow: .5px .5px white;
+    color: yellow;
+
+}
+button{
+    font-size: 20px;
+    padding: 6px 15px;
+    outline: none;
+    border: none;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    text-transform: capitalize;
+}
